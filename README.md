@@ -76,8 +76,6 @@ Open `main.ipynb`, set `map_name` near the top, and execute the environment, age
 
 This is an educational project archive, not a controlled benchmark. Random seeds and dependency versions are not fixed, and the repeated-training routine retains learned agent state between repetitions rather than performing independent seeded trials. The original SARSA loop also samples a fresh action on the next iteration instead of carrying forward the action used in its update. These details should be reviewed before using the results for a rigorous algorithm comparison.
 
-The repository name mentions DQN, but the checked-in notebooks implement tabular Q-learning and SARSA; no DQN implementation is included.
-
 ## Author
 
 [Qiaoyuan Zheng](https://qiaoyuan-zheng.com/) · [GitHub](https://github.com/qiaoyuan667)
